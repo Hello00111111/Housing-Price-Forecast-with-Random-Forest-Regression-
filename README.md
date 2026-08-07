@@ -2,7 +2,7 @@
 This program focuses on creating a housing price forecasting model using the random forest algorithm and evaluating its performance using various metrics. The program also outputs a visualization of the model's feature importances. 
 
 # Methodologies 
-The program uses random forest regression to predict housing prices. Random forest regression is a machine learning model that uses multiple decision trees, each trained on different features and bootstrap samples, to make predictions. Since housing price forecasting is a regression problem, the model outputs the average of the prediction results of all the trees.
+The program uses random forest regression to predict housing prices. Random forest regression is a machine learning model that uses multiple decision trees, each trained on different features and bootstrap samples, to make predictions. These help to make more accurate predictions. Since housing price forecasting is a regression problem, the model outputs the average of the prediction results of all the trees. 
 
 # Model Performance
 The model achieves an RMSE (Root Mean Squared Error) of 1,401,263.08 (rounded to 2 decimal digits), which means the root of the MSE (Mean Squared Error) from the actual values is 1,401,263.08. Considering this RMSE is lower than the standard deviation of the housing price data, it means that the model can explain the variance. The MAE (Mean Absolute Error) of the model is 1,025,289.68. This indicates that the average absolute loss is 1,025,289.68. The model also achieves a standard R^2 Score of 0.612, which implies that 61.2% of the variance can be explained by the model. This is relatively high. Finally, the average R2 score of the cross-validation check is 0.60, which is also satisfying.
