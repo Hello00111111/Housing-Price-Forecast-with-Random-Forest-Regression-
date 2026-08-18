@@ -12,7 +12,7 @@ Feature Importances show the extent to which each feature variable contributes t
 <img width="1402" height="489" alt="Screenshot 2026-07-26 at 22 35 38" src="https://github.com/user-attachments/assets/6ec404fe-0ae1-4c2e-ade3-6e22b04cc2c2" />
 
 # Regression Line Visualization (Actual Values vs Predicted Values)
-<img width="1127" height="478" alt="Screenshot 2026-08-18 at 12 03 11" src="https://github.com/user-attachments/assets/b924c173-98cf-44a0-8a03-f02e6d326bc8" />
+<img width="1280" height="500" alt="Random Forest Regression" src="https://github.com/user-attachments/assets/78d74fa9-2c47-4b0d-b920-2d37f40a22e0" />
 The scatter plot above indicates a moderately positive correlation between the actual values and the predicted values of the model, and this corresponds to the R^2 score. The regression visualization reflects the model's limitations, as there are multiple points far from the diagonal, which hinders its predictive capability. 
 
 # Technologies Used
