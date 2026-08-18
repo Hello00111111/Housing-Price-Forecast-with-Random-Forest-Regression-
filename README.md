@@ -5,11 +5,15 @@ This program focuses on creating a housing price forecasting model using the ran
 The program uses random forest regression to predict housing prices. Random forest regression is a machine learning model that uses multiple decision trees, each trained on different features and bootstrap samples, to make predictions. These help to make more accurate predictions. Since housing price forecasting is a regression problem, the model outputs the average of the prediction results of all the trees. 
 
 # Model Performance
-The model achieves an RMSE (Root Mean Squared Error) of 1,401,263.08 (rounded to 2 decimal digits), which means the root of the MSE (Mean Squared Error) from the actual values is 1,401,263.08. Considering this RMSE is lower than the standard deviation of the housing price data, it means that the model can explain the variance. The MAE (Mean Absolute Error) of the model is 1,025,289.68. This indicates that the average absolute loss is 1,025,289.68. The model also achieves a standard R^2 Score of 0.612, which implies that 61.2% of the variance can be explained by the model. This is relatively high. Finally, the average R2 score of the cross-validation check is 0.60, which is also satisfying.
+The model achieves an RMSE (Root Mean Squared Error) of 1,401,263.08 (rounded to 2 decimal places), which means the root of the MSE (Mean Squared Error) from the actual values is 1,401,263.08. Considering this RMSE is lower than the standard deviation of the housing price data, it means that the model can explain the variance. The MAE (Mean Absolute Error) of the model is 1,025,289.68. This indicates that the average absolute loss is 1,025,289.68. The model also achieves a standard R^2 Score of 0.612, which implies that 61.2% of the variance can be explained by the model. This is relatively high. Finally, the average R2 score of the cross-validation check is 0.60, which is also satisfying.
 
 # Feature Importances
-Feature Importances show to what extent each feature variable contributes to the model's performance, and they are sorted in descending order in the following figure. <br>
+Feature Importances show the extent to which each feature variable contributes to the model's performance, and they are sorted in descending order in the following figure. <br>
 <img width="1402" height="489" alt="Screenshot 2026-07-26 at 22 35 38" src="https://github.com/user-attachments/assets/6ec404fe-0ae1-4c2e-ade3-6e22b04cc2c2" />
+
+#Regression Line Visualization (Actual Values vs Predicted Values)
+<img width="1127" height="478" alt="Screenshot 2026-08-18 at 12 03 11" src="https://github.com/user-attachments/assets/b924c173-98cf-44a0-8a03-f02e6d326bc8" />
+The scatter plot above indicates a moderately positive correlation between the actual values and the predicted values of the model, and this corresponds to the R^2 score. The regression visualization reflects the model's limitations, as there are multiple points far from the diagonal, which hinders its predictive capability. 
 
 # Technologies Used
 Sklearn<br>
