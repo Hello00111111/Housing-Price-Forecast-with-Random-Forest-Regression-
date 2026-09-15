@@ -1,5 +1,5 @@
 # Housing-Price-Forecast-with-Random-Forest-Regression-
-This program focuses on creating a housing price forecasting model using the random forest algorithm and evaluating its performance using various metrics. The program also outputs a visualization of the model evaluation. 
+This program focuses on creating a housing price forecasting model using the random forest algorithm and examining its performance using various evaluation metrics. The program also outputs a visualization of the model performance. 
 
 # Methodologies 
 The program uses random forest regression to predict housing prices. Random forest regression is a machine learning model that uses multiple decision trees, each trained on different features and bootstrap samples, to make predictions. These help to make more accurate predictions. Since housing price forecasting is a regression problem, the model outputs the average of the prediction results of all the trees. 
